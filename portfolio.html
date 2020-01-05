@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Profile</title>
+    <style>
+        .maindiv {
+            display: flex;
+            ll width: 100%;
+        }
+
+        body {
+            margin: 0%;
+            width: auto;
+            height: auto;
+        }
+
+        .menu {
+            text-align: center;
+            background-color: lavender;
+            width: 25%;
+            height: 100%;
+            position: fixed;
+            overflow-x: hidden;
+
+        }
+
+        .contant {
+            background-color: red;
+            width: 75%;
+            height: 100%;
+            overflow: auto;
+            float: right;
+            margin-left: 27%;
+
+        }
+
+        .menu img {
+            width: 50%;
+            height: auto;
+            border-radius: 30%;
+            margin: 26%;
+        }
+
+        .icon img {
+            width: 10%;
+            margin-top: -10%;
+        }
+
+        .menu h1,
+        p {
+            margin-top: 0%;
+            font-size: 70%;
+        }
+
+        .home {
+            text-align: center;
+            color: lightcyan;
+            border: black;
+        }
+
+        .home img {
+            width: 100%;
+            height: 100%;
+        }
+        .text {
+            padding: 1%;
+            margin: 1%;
+            color: black;
+            background-color: rosybrown;
+            text-align: justify;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="maindiv">
+        <div class="menu">
+            <img src="https://avatars3.githubusercontent.com/u/45585049?s=460&v=4" alt="profile photo">
+            <h1>Kapil Chouhan</h1>
+            <p>kapil18@navgur<br>ukul.org <br>+91-8889040755 </p><br>
+
+            <div class="icon">
+                <a href="https://www.facebook.com/kapilchouhan.kapilchouhan.750" target="_blank"><img
+                        src="https://cdn3.iconfinder.com/data/icons/capsocial-round/500/facebook-512.png"
+                        alt="fb icon"></a>
+                <a href="https://www.linkedin.com/in/kapil-chouhan-497125184/" target="_blank"><img
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQr1z8sL0z6KovYtne6imBgMr-1jiarYRfHf-9FKQ0AEo0hA6kf"
+                        alt="linkedin icon"></a>
+                <a href="https://github.com/kapilnavgurukul" target="_blank"><img
+                        src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"
+                        alt="github icon"></a>
+                <a href="https://www.instagram.com/kapil.chouhan_/" target="_blank"><img
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRJZAFjGkd1v696GAlEloBGHtmy62qlaFYJzQqqRM8LCEoGbcE1"
+                        alt="instagram icon"></a>
+                <a href="#home"><h1 style="color: red;">Home</h1></a>
+                <a href="#bio"><h1 style="color: red;">Bio</h1></a>
+                <a href="#skill"><h1 style="color: red;">Skills</h1></a>
+                <a href="#project"><h1 style="color: red;">Projects</h1></a>
+                <a href="#education"><h1 style="color: red;">Education</h1></a>
+            </div>
+        </div>
+        <div class="contant">
+            <div class="home" id="home">
+                <h1>Home</h1>
+                <img src="https://avatars3.githubusercontent.com/u/45585049?s=460&v=4" alt="my image">
+            </div>
+
+            <div class="home"  id="bio">
+                <h1>Bio</h1>
+                <div class="text" id="bio">
+                    <h1>Hello,<br> I am Kapil Chouhan</h1>
+                    <p>
+                        I am Node.JS developer and I am from Khategaon, Madhya Pradesh.
+                        I am pursuing my Software Engineering course at Navgurukul Dharamshala(H.P.).
+                        I have spent 13 months in Navgurukul. My hobbies is playing Cricket and playing Volleyball.
+                        In my family apart from my parents I have an elder brother and an elder sister.
+                        My Father is a farmer and my Motehr is a house wife. I love Nature and
+                        I have been interested in agriculture since childhood.
+                    </p>
+                </div>
+                <img src="https://www.w3schools.com/w3css/img_snowtops.jpg" alt="grassland">
+            </div>
+            <div class="home" id="skill">
+                <h1>Skill</h1>
+                <div class="text" style="display: flex;" >
+                    <div style="margin-left: 1%;">
+                        <h2>Personal Skill</h2>
+                        <ul>
+                            <li>Leadership</li>
+                            <li>Teamwork</li>
+                            <li>Self learning</li>
+                        </ul>
+                    </div>
+                    <div style="float:left; margin-left: 4%;">
+                        <h2>Professional Skill</h2>
+                        <ul>
+                            <li>Python</li>
+                            <li>Javascript</li>
+                            <li>NodeJs</li>
+                            <li>Basic HTML/CSS</li>
+                            <li>SQLite</li>
+                            <li>MySql</li>
+                        </ul>
+                    </div>
+                </div>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRRUXYVneTNuouIehYafMS_mrSgMFRnxYkK_HG7xr5euz7st4_N" alt="skill logo">
+            </div>
+            <div class="home" id="project">
+                <h1>Projects</h1>
+                <div class="text">
+                    <p><a href="https://github.com/kapilnavgurukul/Turing-E-Commerce-Website"><b>Turing backend</b></a>
+                        => I have made the Backend of an E-Commerse-Website
+                        using Express Frameword of NodeJs </p>
+                    <p><a href="https://github.com/kapilnavgurukul/Access-Controller"><b>Access Controlar</b></a> =>
+                        Made a simple access controlar using Express, JWT, AWS(s3), MySql.
+                        SuperAdmin can give view and edit access </p>
+                    <p><a href="https://github.com/kapilnavgurukul/Blog-App"><b>Blog App</b></a> => Created a simple
+                        blog app. User can sing-up and login and then post any post and also like or dislike the post.
+                        I have used Express, JWT, MySql </p>
+                    <p><a href="https://github.com/kapilnavgurukul/Saral-Like-API-with-sqlite3"><b>Saral Like
+                                API</b></a> => SARAL is the eLearning platform of NavGurukul, which
+                        is available on website <a href="http://saral.navgurukul.org">http://saral.navgurukul.org</a>.
+                        I have created a CLI based app where users can access the content of saral using the terminal. I
+                        have used Express, SQLite </p>
+                    <p><a href="https://github.com/kapilnavgurukul/IMDB-scraper"><b>IMDB Scraper</b></a> => I have
+                        scrapped top rated 250 Indian movies. Using python, json and BeautifulSoup</p>
+                    <p><a href="https://github.com/kapilnavgurukul/Hangmen-Game"><b>HANGMAN GAME</b></a> => This is a
+                        game that is played between two or more player. in this game we 
+                        will guess a secret word.</p>
+                </div>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSlPPTT4XI0YzTbxX4yxdYNHmp_lp6s5CK1p-yWQ-qRraAFSRG7"
+                alt="education image">
+            </div>
+            <div class="home">
+                <h1>Education</h1>
+                <div class="text" id="education">
+                    <p><b>Navgurukul, Dharamshala =></b>  I am attending a one-year residential course to learn Software
+                        Engineering and work on
+                        various projects and I am learning soft skills like leadership,
+                        team management, communication and problem-solving. </p>
+                    <p><b>Sant Singaji Institute of Science and Management, Sandalpur =></b>  I am pursuing B.Sc from
+                        Vikram University. I am in 3rd year.</p>
+                    <p><b>Rabindranath Tagore University(AISECT), Bhopal =></b>  I have completed DCA(Diploma in Computer
+                        Application) in 2018</p>
+                    <p><b>Government Higher Secondary School, Khategaon =></b>  I have completed my class 12th from MPBSE
+                        with Agriculture Science in 2017. I got 86.6% marks.</p>
+                    <p><b>Gayatri Vidhya Mandir High School, Khategaon =></b>I have completed my class 10th from MPBSE
+                        in 2015. I got 78.83% marks </p>
+                </div>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTBI5CsG8QeTD-i19vBVaDBPCwdmEGDmCo0112MjAVEZVvshi7n"  alt="education image">
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
